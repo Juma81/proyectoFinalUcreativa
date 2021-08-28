@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initialscale=1.0, maximum-scale=1, minimum-scale=1">
+ <meta name="autor" content="Nombre autor">
+ <meta name="owner" content="Empresa de Diseño">
+ <meta name="description" content=" sobre la emprezar " content="global">
+ <meta name="Keywords" lang="es" content="bienes raices,Costa Rica">
+ <meta name="Keywords" lang="en" content="producto Costa Rica">
+ <meta property="og:title" content="web busines">
+ <meta property="og:description" content="sobre la emprezar ">
+ <meta properti="og:type" content="website">
+ <meta name="languaje" content="spanish">
+ <meta name="distribution" content="global">
+ <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="shortcut icon" href="img/bienesRaices.ico">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Bienes Raices</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+          <a href="index.html">  <!--encerre el logo en una (a) para que tambien lo lleve al index.html-->
+            <img class="menu-logo" src="img/logo.svg" alt="imagen logo">
+        </a>
+        <input id="menu-bar" type="checkbox" >
+        <label class="icon-menu" for="menu-bar"></label>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+</header>
+
+<div class="contenedor">
+    <h1 class="fw-300 centrar-texto">Contacto</h1>
+    <img src="img/destacada3.jpg" alt="Imagen Principal">
+</div>
+<main class="contenedor-main">
+    <h2 class="fw-300 centrar-texto">Llena el formulario de contacto</h2>
+    
+    <form action="">
+        <fieldset class="formulario">
+            <legend>Información Personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu Nombre">
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="Teléfono" placeholder="Tu Teléfono" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje"></textarea>
+        </fieldset>
+        
+        <fieldset class="formulario">
+            
+            <legend>Información sobre Propiedad</legend>
+            <label for="opciones">Vende o Compra</label>
+            <select id="opciones">
+                <option value="Seleccione" disabled selected>-- Seleccione --</option>
+                <option value="Compra">Compra</option>
+                <option value="Vende">Vende</option>
+            </select>
+            
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" min="0">
+            
+        </fieldset>
+        
+        <fieldset class="formulario">
+            <legend>Contacto</legend>
+            
+            
+            <p>Como desea ser Contactado:</p><br><br>
+            
+            <div class="forma-contacto">
+                
+                <label for="telefono">Teléfono</label>
+                <input type="radio" name="contacto" value="telefono" id="telefono">
+                
+                <label for="correo">E-mail</label>
+                <input type="radio" name="contacto" value="correo" id="correo">
+            </div>
+            
+            <p>Si eligío Teléfono, elija la fecha y la hora</p> <br><br>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha">
+            
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" min="8:00" max="18:00">
+            
+        </fieldset>
+        
+        <input type="submit" class="btn-verde">
+    </form>
+</main>
+
+
+
+
+<footer id="footer">
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand">JonathanUA Design</h2>
+  
+            <p>Somos expertos en bienes raíces</p>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" class="icon-facebook">
+            </a>
+            <a href="https://twitter.com" class="icon-twitter">
+            </a>
+            <a href="https://instagram.com" class="icon-instagram">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=+50661278080" class="icon-whatsapp">
+            </a>
+        </div>
+    </div>
+    <div class="line"></div>
+  </footer>
+  </body>
+  </html>
+        
+
